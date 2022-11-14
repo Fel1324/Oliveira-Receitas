@@ -1,0 +1,27 @@
+@import url('cabecalho.css');
+@import url('menu-lateral.css');
+@import url('apresentacao.css');
+@import url('topicos.css');
+@import url('rodape.css');
+
+:root{
+    --fundo-primario: #d2e6ff;
+    --fundo-secundario: #fdfdfd;
+    --cor-borda: #91c3ff;
+    --cor-texto: #242424;
+    --cor-titulo: #0e7aff;
+    --cor-itens: #4b8ee0;
+    --negrito: #0c70eb;
+    --cor-interacao: #3a93ff;
+    --cor-hover: #095abe;
+    
+    --fonte-primaria: 'Roboto', sans-serif;
+    --fonte-secundaria: 'Pacifico', serif;
+}
+
+body{
+    background: var(--fundo-secundario);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+}

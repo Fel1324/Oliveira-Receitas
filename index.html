@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página inicial | Oliveira Receitas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Square+Peg&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="assets/css/global.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho__container">
+                <button class="cabecalho__menu-lateral" aria-label="Menu"><img src="assets/imgs/menu.svg"></button>
+                <img class="cabecalho__logo" src="assets/imgs/logo.png" alt="logotipo Oliveira Receitas">
+                <h1 class="cabecalho__titulo"><img class="cabecalho__logo--desktop" src="assets/imgs/logo-desktop.png" alt="logotipo Oliveira Receitas"></h1>
+
+                <nav class="menu">
+                    <ul class="menu__lista">
+                        <li class="menu__item"><a class="menu__link" href="#!">Doces</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#!">Carnes</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#!">Massas</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#!">Sobremessas</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#!">Comidas típicas</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#!">Comidas do exterior</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <aside class="menu-lateral">
+            <ul class="menu-lateral__lista">
+                <li class="menu-lateral__inicio"><a href="index.html" class="menu-lateral__link">Início</a></li>
+                <h2 class="menu-lateral__titulo">Tópicos principais</h2>
+                <li class="menu-lateral__item"><a href="#!" class="menu-lateral__link">Doces</a></li>
+                <li class="menu-lateral__item"><a href="#!" class="menu-lateral__link">Massas</a></li>
+                <li class="menu-lateral__item"><a href="#!" class="menu-lateral__link">Carnes</a></li>
+                <li class="menu-lateral__item"><a href="#!" class="menu-lateral__link">Sobremessas</a></li>
+                <li class="menu-lateral__item"><a href="#!" class="menu-lateral__link">Comidas típicas</a></li>
+                <li class="menu-lateral__item"><a href="#!" class="menu-lateral__link">Comidas do exterior</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <section class="apresentacao">
+                <h2 class="apresentacao__titulo">Oliveira Receitas</h2>
+
+                <h3 class="apresentacao__descricao">Aqui no <b class="apresentacao__descricao--negrito">Oliveira receitas</b> você encontrará diversas receitas deliciosas, como receitas de doces, massas, sobremessas, carnes, drinks etc...</h3>
+
+                <h3 class="apresentacao__descricao">Então não perca tempo! Navegue pelos nossos <b class="apresentacao__descricao--negrito">tópicos</b> e aprenda à fazer essas delícias! Ou então você pode procurar por uma receita específica de sua preferência.</h3>
+
+                <input class="apresentacao__pesquisa" type="search" placeholder="Pesquisar receita">
+            </section>
+
+            <section class="topicos">
+                <h2 class="topicos__titulo">Tópicos de receitas</h2>
+
+                <div class="topicos__conteudo">
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Massas</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/massa.jpg" alt="Massa de exemplo: Gnocchi-recheado.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Doces</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/doces.jpeg" alt="Doces de exemplo: Alfajores.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+                    
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Sobremessas</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/pave.jpg" alt="Sobremessa de exemplo: Pavê de alfajor.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Bolos</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/bolo.jpg" alt="Bolo de exemplo: bolo de chocolate com cerejas.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Carnes</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/carnes.jpg" alt="Carne de exemplo: picanha fatiada.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Comidas típicas</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/tipica.jpg" alt="Comidas típicas de exemplo: feijoada, arroz e farofa.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Comidas do exterior</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/exterior.jpg" alt="Comidas do exterior de exemplo: comidas japonesas como sushi, salmão, algas, entre outros.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Comidas saudáveis</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/saudavel.jpg" alt="Comida saudável de exemplo: salada com várias verduras, legumes e frutas.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Acompanhamentos</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/acompanhamento.jpg" alt="Acompanhamentos de exemplo: batata frita redonda, molhos e outros petiscos.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Drinks</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/drinks.jpg" alt="Drinks de exemplo: bebidas de cores azul, vermelho, verde, entre outras.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Sopas</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/sopa.jpg" alt="Sopa de exemplo: sopa chique de mandioca.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+
+                    <div class="topicos__container">
+                        <h3 class="topicos-container__titulo">Temperos</h3>
+                        <img class="topicos-container__imagem" src="assets/imgs/tempero.jpg" alt="Temperos de exemplo: Páprica, Açafrão, entre outros.">
+                        <li class="topicos-container__item"><a class="topicos-container__link" href="#">Ver receitas do tópico</a></li>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape__icone"></div>
+            <p class="rodape__titulo">© Copyright Oliveira Receitas - 2022</p>
+        </footer>
+    
+        <script src="assets/js/menu-lateral.js"></script>
+    </body>
+</html>

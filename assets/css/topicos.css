@@ -1,0 +1,168 @@
+.topicos{
+    padding: 1rem;
+    background: var(--fundo-secundario);
+}
+
+.topicos__conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+}
+
+.topicos__titulo{
+    color: var(--cor-titulo);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topicos__container{
+    border: 2px solid var(--cor-borda);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.topicos-container__titulo{
+    color: var(--cor-titulo);
+    padding: .4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.topicos-container__imagem{
+    height: 200px;
+    width: 100%;
+    vertical-align: top;
+}
+
+.topicos-container__item{
+    list-style: none;
+    padding: .75rem;
+    text-align: center;
+}
+
+
+.topicos-container__link{
+    color: var(--cor-itens);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.topicos-container__link:hover{
+    color: var(--negrito);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 400px) {
+    .topicos{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .topicos{
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (min-width: 495px) {
+    .topicos{
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .topicos{
+        padding: 1rem 5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .topicos{
+        padding: 1rem 7rem;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .topicos{
+        padding: 1rem 8rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .topicos{
+        padding: 1rem 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .topicos{
+        padding: 1rem 1rem;
+    }
+
+    .topicos__conteudo{
+        column-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .topicos{
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos{
+        padding: 1rem 1rem;
+    }
+
+    .topicos__conteudo{
+        column-gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .topicos{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .topicos{
+        padding: 1rem 3rem;
+    }
+
+    .topicos__conteudo{
+        column-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .topicos{
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .topicos{
+        padding: 1rem 10rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .topicos{
+        padding: 1rem 9rem;
+    }
+
+    .topicos__conteudo{
+        column-gap: 1rem;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

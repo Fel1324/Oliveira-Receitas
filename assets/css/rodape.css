@@ -1,0 +1,15 @@
+.rodape{
+    background: var(--fundo-primario);
+    border-top: 2px solid var(--cor-borda);
+    margin-top: 2.2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.rodape__icone{
+    display: none;
+}
+
+.rodape__titulo{
+    color: var(--cor-titulo);
+}
